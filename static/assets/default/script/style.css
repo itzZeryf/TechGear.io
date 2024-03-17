@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    /* color: var(--main-text-color); */
+}
+
+:root {
+    --one-color-bg: #3278f6;
+    --two-color-bg: #29324e;
+    --page-top-height: 30px;
+    --header-top-height: 70px;
+    --header-bottom-height: 30px;
+    --main-text-color: whitesmoke;
+    --line-space-color: rgb(243, 243, 243, 0.5)
+}
+
+.container {
+    max-width: 1424px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+}
+
+.row-grid {
+    display: grid;
+    justify-content: space-between;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Page Top */
+.page-top {
+    background-color: var(--one-color-bg);
+}
