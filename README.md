@@ -1,6 +1,7 @@
 # Knowledge
 - Nếu khác nhau về chiều rộng thì dùng grid.
 - Nếu giống nhau về chiều rộng thì dùng flex.
+- CSS 2 class . gần nhau sẽ có mức độ ưu tiên hơn 2 class . cách nhau
 
 # font-awesome
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
